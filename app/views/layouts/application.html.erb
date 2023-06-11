@@ -11,6 +11,16 @@
   </head>
 
   <body>
+    <header>
+      <nav>
+        <a href="/">オタ活</a>
+        <ul>
+          <li>
+            <%= link_to "ログイン", new_user_session_path %>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <%= yield %>
   </body>
 </html>
