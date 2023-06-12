@@ -16,7 +16,10 @@
         <a href="/">オタ活</a>
         <ul>
           <li>
-            <%= link_to "ログイン", new_user_session_path %>
+            <%= link_to "ログイン", new_customer_session_path %>
+          </li>
+          <li>
+            <%= link_to "ログアウト", destroy_customer_session_path %>
           </li>
         </ul>
       </nav>
